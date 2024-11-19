@@ -1,0 +1,132 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e6ecf0;
+  height: 100%;
+}
+
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #e6ecf0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h3 {
+  font-size: 1.6rem;
+  color: #1da1f2;
+}
+
+.tweet-box {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.tweet-box textarea {
+  width: 80%;
+  resize: none;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  min-height: 60px;
+}
+
+.tweet-box button {
+  background-color: #1da1f2;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tweet-box button:hover {
+  background-color: #1991d0;
+}
+
+.feed {
+  margin-top: 30px;
+}
+
+.tweet {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.tweet h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tweet p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.tweet .actions button {
+  background: none;
+  border: none;
+  color: #1da1f2;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tweet .actions button:hover {
+  text-decoration: underline;
+}
+
+.tweet .actions button:focus {
+  outline: none;
+}
+
+.search-bar {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+
+}
+
+.search-bar input:focus {
+  border-color: #4A90E2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
